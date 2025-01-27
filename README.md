@@ -46,6 +46,11 @@ cd /home
 wget https://github.com/fayvlad/warp.sh/raw/refs/heads/main/warp.sh
 bash warp.sh [SUBCOMMAND]
 ```
+```bash
+bash warp.sh install
+bash warp.sh wg
+bash warp.sh wg4
+```
 
 ### Subcommands
 
