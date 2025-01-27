@@ -47,9 +47,13 @@ wget https://github.com/fayvlad/warp.sh/raw/refs/heads/main/warp.sh
 bash warp.sh [SUBCOMMAND]
 ```
 ```bash
+apt-get update && apt install curl -y
 bash warp.sh install
 bash warp.sh wg
 bash warp.sh wg4
+curl https://www.cloudflare.com/cdn-cgi/trace/
+bash warp.sh dwg
+curl https://www.cloudflare.com/cdn-cgi/trace/
 ```
 
 ### Subcommands
