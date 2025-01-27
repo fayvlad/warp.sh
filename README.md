@@ -54,6 +54,10 @@ bash warp.sh wg4
 curl https://www.cloudflare.com/cdn-cgi/trace/
 bash warp.sh dwg
 curl https://www.cloudflare.com/cdn-cgi/trace/
+
+
+bash warp.sh proxy
+curl --proxy socks5://localhost:40000 https://www.cloudflare.com/cdn-cgi/trace/
 ```
 
 ### Subcommands
