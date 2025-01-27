@@ -273,19 +273,19 @@ Connect_WARP() {
     log INFO "Connecting to WARP..."
     warp-cli --accept-tos connect
     log INFO "Enable WARP Always-On..."
-    warp-cli --accept-tos enable-always-on
+    #warp-cli --accept-tos enable-always-on
 }
 
 Disconnect_WARP() {
     log INFO "Disable WARP Always-On..."
-    warp-cli --accept-tos disable-always-on
+   # warp-cli --accept-tos disable-always-on
     log INFO "Disconnect from WARP..."
     warp-cli --accept-tos disconnect
 }
 
 Set_WARP_Mode_Proxy() {
     log INFO "Setting up WARP Proxy Mode..."
-    warp-cli --accept-tos set-mode proxy
+    warp-cli --accept-tos mode proxy
 }
 
 Enable_WARP_Client_Proxy() {
