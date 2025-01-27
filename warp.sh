@@ -264,7 +264,8 @@ Init_WARP_Client() {
     fi
     if [[ $(warp-cli --accept-tos account) = *Missing* ]]; then
         log INFO "Cloudflare WARP Account Registration in progress..."
-        warp-cli --accept-tos register
+        #warp-cli --accept-tos register
+        warp-cli --accept-tos registration new
     fi
 }
 
